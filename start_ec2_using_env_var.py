@@ -19,7 +19,7 @@ logging.basicConfig(level=logging.INFO)
 
 # Specify the instance ID
 '''
-Lines 13-17 will check if environment variable is set or not
+Lines 25-29 will check if environment variable is set or not
 Then it will log the fetched instance id
 '''
 instance_id = os.getenv('INSTANCE_ID')
